@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite it as below."
+title: "Household Delegation Benchmark (HDB): AI agents acting for one member of a shared household"
+version: 1.0.0
+date-released: 2026-11-23
+doi: 10.5281/zenodo.24459412
+license: MIT
+type: software
+authors:
+  - family-names: Bykovskii
+    given-names: George
+    orcid: "https://orcid.org/0000-0002-7400-5782"
+    affiliation: "Swinburne University of Technology"
+keywords:
+  - AI agents
+  - benchmark
+  - multi-user
+  - household
+  - privacy
+  - clarifying questions
+  - LLM evaluation
+abstract: >-
+  Two test suites for language-model agents that act for one member of a shared household.
+  clarify: 48 decision environments in which an agent may buy one noisy clarifying question before
+  delivering a personalised offer on a shared account, scored by regret against the exact optimum.
+  dispute: 960 threads in which two members give opposite instructions about a memory entry that
+  describes both, scored by whose instruction the agent carries out (last-speaker and account-holder effects).
+references:
+  - type: dataset
+    title: "Replication package: Who is it for, or who will see it? How private delivery channels change what household AI agents should ask"
+    authors:
+      - family-names: Bykovskii
+        given-names: George
+    doi: 10.5281/zenodo.24433546
+  - type: dataset
+    title: "Replication materials: Who controls a disputed memory record? An audit of household AI agents and a test of system-set dispute states"
+    authors:
+      - family-names: Bykovskii
+        given-names: George
+    doi: 10.5281/zenodo.24433568

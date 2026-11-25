@@ -1,0 +1,2 @@
+openai>=1.40      # for --provider openai (any OpenAI-compatible endpoint)
+anthropic>=0.40   # for --provider anthropic
