@@ -1,0 +1,7 @@
+model,condition,reasoning,episodes,mean_regret,acquisition_regret,execution_regret,oracle_first_move,selective_responsiveness,sr_ci_low,sr_ci_high,run_date
+gpt-5.4-mini-2026-03-17,plain,off,144,18.84,11.23,7.6,0.312,0.0,0.0,0.0,2026-10-07
+gpt-5.4-mini-2026-03-17,computed,off,144,0.52,0.5,0.02,0.896,0.792,0.624,0.938,2026-10-07
+gpt-5.4-mini-2026-03-17,plain,on,144,6.16,3.72,2.43,0.597,0.021,-0.25,0.312,2026-10-07
+claude-haiku-4-5-20251001,plain,off,144,27.36,15.57,11.79,0.125,-0.021,-0.146,0.083,2026-10-07
+claude-haiku-4-5-20251001,computed,off,144,5.62,4.89,0.73,0.646,0.167,-0.167,0.458,2026-10-07
+claude-haiku-4-5-20251001,plain,on,144,3.05,2.1,0.95,0.736,0.458,0.229,0.687,2026-10-07
